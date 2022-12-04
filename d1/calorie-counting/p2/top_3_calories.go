@@ -39,7 +39,6 @@ func (el ElfList) Sum() int {
 }
 
 func main() {
-
 	file, err := os.Open("../input")
 	if err != nil {
 		log.Fatal(err)
