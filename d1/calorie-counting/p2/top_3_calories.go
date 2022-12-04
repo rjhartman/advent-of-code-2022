@@ -67,7 +67,7 @@ func main() {
 
 	// We have to check one last time in case the file doesn't end
 	// with a newline and the last elf is carrying the most calories.
-	if cur >= list[0] {
+	if cur >= list[len(list)-1] {
 		list.Insert(cur)
 	}
 
